@@ -201,9 +201,9 @@
                     .filter(row => {
                         const posReceipt = row['POS Receipt No.'] || '';
                         return !(
-                            posReceipt.includes('K482SWG') || 
-                            posReceipt.includes('K482ZMT') || 
-                            posReceipt.includes('K482MAGIC')
+                            posReceipt.includes('K448SWG') || 
+                            posReceipt.includes('K448ZMT') || 
+                            posReceipt.includes('K448MAGIC')
                         );
                     })
                     .forEach(row => {
